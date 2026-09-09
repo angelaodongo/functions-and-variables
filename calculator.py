@@ -1,7 +1,10 @@
 x = int(input("Enter x: "))
 y = int(input("Enter y: "))
 
-print(x + y)
+z = round(x + y)
+
+print(f"{z:,}")
+#print(x + y)
 
 a = float(input("Enter a: "))
 b = float(input("Enter b: "))
