@@ -1,8 +1,8 @@
 # input
-name = input("What is your name? ")
+name = input("What is your name? ").strip().title()  
 
-#remove whitspace from string
-name = name.strip()  
+#Capitalize first letter of string
+#name = name.capitalize()
 
 # output
 print ("Hello", name, sep=' -> ', end='!')
