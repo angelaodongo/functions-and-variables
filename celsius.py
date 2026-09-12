@@ -2,13 +2,13 @@
 # (Formula: C = (F - 32) * 5/9.) 
 # Implement main, which prompts the user for a Fahrenheit temperature, calls convert, and prints the result formatted like "25.0 C".
 
-def convert(C):
-    celsius = (C - 32) * 5/9
-    float(celsius)
-    return celsius
+def convert(F):
+    C = (F - 32) * 5/9
+    convertedValue = f"{float(C):.1f} C"
+    return convertedValue
 
 def main():
     fahrenheit = float(input("Enter degrees in Fahrenheit: "))
-    print(f"{convert(fahrenheit):.1f}", "C")
+    print(convert(fahrenheit))
 
 main()
