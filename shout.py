@@ -4,10 +4,11 @@
 
 def shout(s):
     upperCased = s.upper()
-    return upperCased
+    exclamation = f"{upperCased}!"
+    return exclamation
 
 def main():
     statement = input("What do you want to say? ")
-    print(f"{shout(statement)}!")
+    print(shout(statement))
 
 main()
