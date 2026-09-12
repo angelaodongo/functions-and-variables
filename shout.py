@@ -6,3 +6,7 @@ def shout(s):
     upperCased = s.upper()
     exclamation = f"{upperCased}", "!"
     return exclamation
+
+def main():
+    statement = input("What do you want to say? ")
+    print(shout(statement))
