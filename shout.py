@@ -10,3 +10,5 @@ def shout(s):
 def main():
     statement = input("What do you want to say? ")
     print(shout(statement))
+
+main()
