@@ -5,3 +5,7 @@
 def convert(C):
     C = float(C = (C - 32) * 5/9)
     return C
+
+def main():
+    fahrenheit = float(input("Enter degrees in Fahrenheit: "))
+    print(f"{convert(fahrenheit):.1f}")
