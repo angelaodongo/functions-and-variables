@@ -5,3 +5,9 @@ def redact(s, w):
     s = s.replace(w, '[REDACTED]')
     return s
 
+def main():
+    sentence = input("Enter a phrase: ")
+    word = input("What is the word you want redacted? ")
+    print(redact(sentence,word))
+
+main()
