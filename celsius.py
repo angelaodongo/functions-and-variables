@@ -3,9 +3,12 @@
 # Implement main, which prompts the user for a Fahrenheit temperature, calls convert, and prints the result formatted like "25.0 C".
 
 def convert(C):
-    C = float(C = (C - 32) * 5/9)
-    return C
+    celsius = (C - 32) * 5/9
+    float(celsius)
+    return celsius
 
 def main():
     fahrenheit = float(input("Enter degrees in Fahrenheit: "))
-    print(f"{convert(fahrenheit):.1f}")
+    print(f"{convert(fahrenheit):.1f}", "C")
+
+main()
