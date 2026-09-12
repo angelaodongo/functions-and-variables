@@ -7,3 +7,8 @@ def coins_to_dollars(c):
     convertedValue = f"${float(d):.2f}"
     return convertedValue
 
+def main():
+    coins = int(input("How many coins do you have? "))
+    print(coins_to_dollars(coins))
+
+main()
